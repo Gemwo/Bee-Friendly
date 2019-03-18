@@ -1,0 +1,33 @@
+
+img{
+  width: 100%;
+  height: auto;
+}
+div#Winter{
+  Width: 100%;
+  padding: 15px;
+  margin: 15px;
+}
+
+div#Spring{
+  Width: 100%
+  padding: 15px;
+  margin: 15px;
+}
+
+div#Summer{
+  Width: 100%
+  padding: 15px;
+  margin: 15px;
+}
+
+div#Autumn{
+  Width: 100%
+  padding: 15px;
+  margin: 15px;
+}
+
+button {
+  margin-top: -30%;
+  margin-left: 35%
+}
