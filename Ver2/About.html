@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -32,21 +31,256 @@
 						<span class="sr-only">(current)</span>
 					</a>
 				</li>
-				<li class="nav-item">
+        <li class="nav-item">
 					<a class="nav-link js-scroll-trigger" href="Winter.html">Winter</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="#Spring">Spring</a>
+					<a class="nav-link js-scroll-trigger" href="Spring.html">Spring</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="#Summer">Summer</a>
+					<a class="nav-link js-scroll-trigger" href="Summer.html">Summer</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="#Autumn">Autumn</a>
+					<a class="nav-link js-scroll-trigger" href="Autumn.html">Autumn</a>
 				</li>
 			</ul>
 		</div>
 	</div>
 </nav>
 
+<
+
+
+<!-- flowers blossom GreenSock animation https://codepen.io/g12n/pen/mRpRRQ -->
+
+<svg viewBox="0 0 1000 1000">
+  <defs>
+    <radialGradient id="blossom-gradient" cx="0.25" cy="-44" r="61.5081" gradientUnits="userSpaceOnUse">
+      <stop class="peddle-center" offset="0"></stop>
+      <stop class="peddle-outside" offset="1"></stop>
+    </radialGradient>
+    <symbol id="blossom" viewBox="-32.2 -55.9 64.5 111.7">
+      <path class="peddle-gradient" fill="url(#blossom-gradient)" d="M32.2,0c0-23.9-13-44.7-32.2-55.9C-19.3-44.7-32.2-23.9-32.2,0s13,44.7,32.2,55.9C19.3,44.7,32.2,23.9,32.2,0z"></path>
+    </symbol>
+  </defs>
+  <!--circle(cx=cx  cy=cy r=r style="transform-origin:"+ cx + "px " + cy + "px;")-->
+  <g class="blossom">
+    <g class="peddle-group" transform="rotate(288,592.1,258.3)">
+      <use class="peddle" xlink:href="#blossom" x="569.6" y="258.3" width="45" height="45" style="transform-origin:592.1px 258.3px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(216,592.1,258.3)">
+      <use class="peddle" xlink:href="#blossom" x="569.6" y="258.3" width="45" height="45" style="transform-origin:592.1px 258.3px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(144,592.1,258.3)">
+      <use class="peddle" xlink:href="#blossom" x="569.6" y="258.3" width="45" height="45" style="transform-origin:592.1px 258.3px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(72,592.1,258.3)">
+      <use class="peddle" xlink:href="#blossom" x="569.6" y="258.3" width="45" height="45" style="transform-origin:592.1px 258.3px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(0,592.1,258.3)">
+      <use class="peddle" xlink:href="#blossom" x="569.6" y="258.3" width="45" height="45" style="transform-origin:592.1px 258.3px;"></use>
+    </g>
+  </g>
+  <!--circle(cx=cx  cy=cy r=r style="transform-origin:"+ cx + "px " + cy + "px;")-->
+  <g class="blossom">
+    <g class="peddle-group" transform="rotate(288,542.5,206.2)">
+      <use class="peddle" xlink:href="#blossom" x="517.5" y="206.2" width="50" height="50" style="transform-origin:542.5px 206.2px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(216,542.5,206.2)">
+      <use class="peddle" xlink:href="#blossom" x="517.5" y="206.2" width="50" height="50" style="transform-origin:542.5px 206.2px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(144,542.5,206.2)">
+      <use class="peddle" xlink:href="#blossom" x="517.5" y="206.2" width="50" height="50" style="transform-origin:542.5px 206.2px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(72,542.5,206.2)">
+      <use class="peddle" xlink:href="#blossom" x="517.5" y="206.2" width="50" height="50" style="transform-origin:542.5px 206.2px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(0,542.5,206.2)">
+      <use class="peddle" xlink:href="#blossom" x="517.5" y="206.2" width="50" height="50" style="transform-origin:542.5px 206.2px;"></use>
+    </g>
+  </g>
+  <!--circle(cx=cx  cy=cy r=r style="transform-origin:"+ cx + "px " + cy + "px;")-->
+  <g class="blossom">
+    <g class="peddle-group" transform="rotate(288,464.2,183.8)">
+      <use class="peddle" xlink:href="#blossom" x="436.7" y="183.8" width="55" height="55" style="transform-origin:464.2px 183.8px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(216,464.2,183.8)">
+      <use class="peddle" xlink:href="#blossom" x="436.7" y="183.8" width="55" height="55" style="transform-origin:464.2px 183.8px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(144,464.2,183.8)">
+      <use class="peddle" xlink:href="#blossom" x="436.7" y="183.8" width="55" height="55" style="transform-origin:464.2px 183.8px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(72,464.2,183.8)">
+      <use class="peddle" xlink:href="#blossom" x="436.7" y="183.8" width="55" height="55" style="transform-origin:464.2px 183.8px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(0,464.2,183.8)">
+      <use class="peddle" xlink:href="#blossom" x="436.7" y="183.8" width="55" height="55" style="transform-origin:464.2px 183.8px;"></use>
+    </g>
+  </g>
+  <!--circle(cx=cx  cy=cy r=r style="transform-origin:"+ cx + "px " + cy + "px;")-->
+  <g class="blossom">
+    <g class="peddle-group" transform="rotate(288,375.8,206.2)">
+      <use class="peddle" xlink:href="#blossom" x="345.8" y="206.2" width="60" height="60" style="transform-origin:375.8px 206.2px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(216,375.8,206.2)">
+      <use class="peddle" xlink:href="#blossom" x="345.8" y="206.2" width="60" height="60" style="transform-origin:375.8px 206.2px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(144,375.8,206.2)">
+      <use class="peddle" xlink:href="#blossom" x="345.8" y="206.2" width="60" height="60" style="transform-origin:375.8px 206.2px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(72,375.8,206.2)">
+      <use class="peddle" xlink:href="#blossom" x="345.8" y="206.2" width="60" height="60" style="transform-origin:375.8px 206.2px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(0,375.8,206.2)">
+      <use class="peddle" xlink:href="#blossom" x="345.8" y="206.2" width="60" height="60" style="transform-origin:375.8px 206.2px;"></use>
+    </g>
+  </g>
+  <!--circle(cx=cx  cy=cy r=r style="transform-origin:"+ cx + "px " + cy + "px;")-->
+  <g class="blossom">
+    <g class="peddle-group" transform="rotate(288,303.3,276.3)">
+      <use class="peddle" xlink:href="#blossom" x="270.8" y="276.3" width="65" height="65" style="transform-origin:303.3px 276.3px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(216,303.3,276.3)">
+      <use class="peddle" xlink:href="#blossom" x="270.8" y="276.3" width="65" height="65" style="transform-origin:303.3px 276.3px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(144,303.3,276.3)">
+      <use class="peddle" xlink:href="#blossom" x="270.8" y="276.3" width="65" height="65" style="transform-origin:303.3px 276.3px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(72,303.3,276.3)">
+      <use class="peddle" xlink:href="#blossom" x="270.8" y="276.3" width="65" height="65" style="transform-origin:303.3px 276.3px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(0,303.3,276.3)">
+      <use class="peddle" xlink:href="#blossom" x="270.8" y="276.3" width="65" height="65" style="transform-origin:303.3px 276.3px;"></use>
+    </g>
+  </g>
+  <!--circle(cx=cx  cy=cy r=r style="transform-origin:"+ cx + "px " + cy + "px;")-->
+  <g class="blossom">
+    <g class="peddle-group" transform="rotate(288,272.3,382.5)">
+      <use class="peddle" xlink:href="#blossom" x="237.3" y="382.5" width="70" height="70" style="transform-origin:272.3px 382.5px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(216,272.3,382.5)">
+      <use class="peddle" xlink:href="#blossom" x="237.3" y="382.5" width="70" height="70" style="transform-origin:272.3px 382.5px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(144,272.3,382.5)">
+      <use class="peddle" xlink:href="#blossom" x="237.3" y="382.5" width="70" height="70" style="transform-origin:272.3px 382.5px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(72,272.3,382.5)">
+      <use class="peddle" xlink:href="#blossom" x="237.3" y="382.5" width="70" height="70" style="transform-origin:272.3px 382.5px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(0,272.3,382.5)">
+      <use class="peddle" xlink:href="#blossom" x="237.3" y="382.5" width="70" height="70" style="transform-origin:272.3px 382.5px;"></use>
+    </g>
+  </g>
+  <!--circle(cx=cx  cy=cy r=r style="transform-origin:"+ cx + "px " + cy + "px;")-->
+  <g class="blossom">
+    <g class="peddle-group" transform="rotate(288,299.7,499.6)">
+      <use class="peddle" xlink:href="#blossom" x="262.2" y="499.6" width="75" height="75" style="transform-origin:299.7px 499.6px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(216,299.7,499.6)">
+      <use class="peddle" xlink:href="#blossom" x="262.2" y="499.6" width="75" height="75" style="transform-origin:299.7px 499.6px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(144,299.7,499.6)">
+      <use class="peddle" xlink:href="#blossom" x="262.2" y="499.6" width="75" height="75" style="transform-origin:299.7px 499.6px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(72,299.7,499.6)">
+      <use class="peddle" xlink:href="#blossom" x="262.2" y="499.6" width="75" height="75" style="transform-origin:299.7px 499.6px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(0,299.7,499.6)">
+      <use class="peddle" xlink:href="#blossom" x="262.2" y="499.6" width="75" height="75" style="transform-origin:299.7px 499.6px;"></use>
+    </g>
+  </g>
+  <!--circle(cx=cx  cy=cy r=r style="transform-origin:"+ cx + "px " + cy + "px;")-->
+  <g class="blossom">
+    <g class="peddle-group" transform="rotate(288,387.6,595.5)">
+      <use class="peddle" xlink:href="#blossom" x="347.6" y="595.5" width="80" height="80" style="transform-origin:387.6px 595.5px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(216,387.6,595.5)">
+      <use class="peddle" xlink:href="#blossom" x="347.6" y="595.5" width="80" height="80" style="transform-origin:387.6px 595.5px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(144,387.6,595.5)">
+      <use class="peddle" xlink:href="#blossom" x="347.6" y="595.5" width="80" height="80" style="transform-origin:387.6px 595.5px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(72,387.6,595.5)">
+      <use class="peddle" xlink:href="#blossom" x="347.6" y="595.5" width="80" height="80" style="transform-origin:387.6px 595.5px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(0,387.6,595.5)">
+      <use class="peddle" xlink:href="#blossom" x="347.6" y="595.5" width="80" height="80" style="transform-origin:387.6px 595.5px;"></use>
+    </g>
+  </g>
+  <!--circle(cx=cx  cy=cy r=r style="transform-origin:"+ cx + "px " + cy + "px;")-->
+  <g class="blossom">
+    <g class="peddle-group" transform="rotate(288,520.5,639.3)">
+      <use class="peddle" xlink:href="#blossom" x="478" y="639.3" width="85" height="85" style="transform-origin:520.5px 639.3px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(216,520.5,639.3)">
+      <use class="peddle" xlink:href="#blossom" x="478" y="639.3" width="85" height="85" style="transform-origin:520.5px 639.3px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(144,520.5,639.3)">
+      <use class="peddle" xlink:href="#blossom" x="478" y="639.3" width="85" height="85" style="transform-origin:520.5px 639.3px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(72,520.5,639.3)">
+      <use class="peddle" xlink:href="#blossom" x="478" y="639.3" width="85" height="85" style="transform-origin:520.5px 639.3px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(0,520.5,639.3)">
+      <use class="peddle" xlink:href="#blossom" x="478" y="639.3" width="85" height="85" style="transform-origin:520.5px 639.3px;"></use>
+    </g>
+  </g>
+  <!--circle(cx=cx  cy=cy r=r style="transform-origin:"+ cx + "px " + cy + "px;")-->
+  <g class="blossom">
+    <g class="peddle-group" transform="rotate(288,667.5,610.9)">
+      <use class="peddle" xlink:href="#blossom" x="622.5" y="610.9" width="90" height="90" style="transform-origin:667.5px 610.9px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(216,667.5,610.9)">
+      <use class="peddle" xlink:href="#blossom" x="622.5" y="610.9" width="90" height="90" style="transform-origin:667.5px 610.9px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(144,667.5,610.9)">
+      <use class="peddle" xlink:href="#blossom" x="622.5" y="610.9" width="90" height="90" style="transform-origin:667.5px 610.9px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(72,667.5,610.9)">
+      <use class="peddle" xlink:href="#blossom" x="622.5" y="610.9" width="90" height="90" style="transform-origin:667.5px 610.9px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(0,667.5,610.9)">
+      <use class="peddle" xlink:href="#blossom" x="622.5" y="610.9" width="90" height="90" style="transform-origin:667.5px 610.9px;"></use>
+    </g>
+  </g>
+  <!--circle(cx=cx  cy=cy r=r style="transform-origin:"+ cx + "px " + cy + "px;")-->
+  <g class="blossom">
+    <g class="peddle-group" transform="rotate(288,789.6,508.2)">
+      <use class="peddle" xlink:href="#blossom" x="742.1" y="508.2" width="95" height="95" style="transform-origin:789.6px 508.2px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(216,789.6,508.2)">
+      <use class="peddle" xlink:href="#blossom" x="742.1" y="508.2" width="95" height="95" style="transform-origin:789.6px 508.2px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(144,789.6,508.2)">
+      <use class="peddle" xlink:href="#blossom" x="742.1" y="508.2" width="95" height="95" style="transform-origin:789.6px 508.2px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(72,789.6,508.2)">
+      <use class="peddle" xlink:href="#blossom" x="742.1" y="508.2" width="95" height="95" style="transform-origin:789.6px 508.2px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(0,789.6,508.2)">
+      <use class="peddle" xlink:href="#blossom" x="742.1" y="508.2" width="95" height="95" style="transform-origin:789.6px 508.2px;"></use>
+    </g>
+  </g>
+  <!--circle(cx=cx  cy=cy r=r style="transform-origin:"+ cx + "px " + cy + "px;")-->
+  <g class="blossom">
+    <g class="peddle-group" transform="rotate(288,850.0,350.0)">
+      <use class="peddle" xlink:href="#blossom" x="800" y="350.0" width="100" height="100" style="transform-origin:850.0px 350.0px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(216,850.0,350.0)">
+      <use class="peddle" xlink:href="#blossom" x="800" y="350.0" width="100" height="100" style="transform-origin:850.0px 350.0px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(144,850.0,350.0)">
+      <use class="peddle" xlink:href="#blossom" x="800" y="350.0" width="100" height="100" style="transform-origin:850.0px 350.0px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(72,850.0,350.0)">
+      <use class="peddle" xlink:href="#blossom" x="800" y="350.0" width="100" height="100" style="transform-origin:850.0px 350.0px;"></use>
+    </g>
+    <g class="peddle-group" transform="rotate(0,850.0,350.0)">
+      <use class="peddle" xlink:href="#blossom" x="800" y="350.0" width="100" height="100" style="transform-origin:850.0px 350.0px;"></use>
+    </g>
+  </g>
+</svg>
+<div class="title">bloom</div>
+
+<!-- flowers blossom GreenSock animation https://codepen.io/g12n/pen/mRpRRQ -->
 </body>

@@ -94,3 +94,35 @@ body{overflow:hidden}
 		transform:rotate(-4deg);
 	}
 }
+
+/* .container {
+  width: inherit;
+  height: 100%;
+} */
+
+.header {
+  /* position: fixed; */
+  width: inherit;
+  height: auto;
+  /* background-color: #ffc32f; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuHolder {
+  width: inherit;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuLogo {
+  width: 60px;
+  height: 30px;
+  background-image: url("https://cdn4.iconfinder.com/data/icons/environmental/80/Environment_ecology_eco-03-128.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
