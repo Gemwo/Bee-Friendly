@@ -101,7 +101,7 @@ body{overflow:hidden}
 } */
 
 .header {
-  /* position: fixed; */
+  position: inherit;
   width: inherit;
   height: auto;
   /* background-color: #ffc32f; */
