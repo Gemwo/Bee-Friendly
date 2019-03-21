@@ -111,8 +111,8 @@ body{overflow:hidden}
 }
 
 .menuHolder {
-  width: 100%;
-  height: 50px;
+  width: inherit;
+  height: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -121,8 +121,8 @@ body{overflow:hidden}
 
 .menuLogo {
   width: 60px;
-  height: 60px;
+  height: 30px;
   background-image: url("https://cdn4.iconfinder.com/data/icons/environmental/80/Environment_ecology_eco-03-128.png");
-  background-size: 100%;
+  background-size: 50%;
   background-repeat: no-repeat;
 }
