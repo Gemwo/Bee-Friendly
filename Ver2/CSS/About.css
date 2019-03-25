@@ -20,11 +20,10 @@ svg.absolute {
   right: 100px;
   width: 1000px;
   height: 1000px;
-
 }
 
-p {
-	margin:100px 100px 100px 100px
+#names{
+	margin-top: 150px;
 }
 .menuHolder {
   width: inherit;
@@ -42,6 +41,8 @@ p {
   background-size: 50%;
   background-repeat: no-repeat;
 }
+
+
 
 
 
