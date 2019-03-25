@@ -22,11 +22,7 @@ svg.absolute {
   height: 1000px;
 }
 
-#names{
-	margin-top: 150px;
-	text-align: center;
-	font-weight: bold;
-}
+
 .menuHolder {
   width: inherit;
   height: auto;
@@ -36,11 +32,21 @@ svg.absolute {
   justify-content: space-between;
 }
 
+#names{
+	margin-top: 150px;
+	text-align: center;
+	font-weight: bold;
+}
+
 #degree{
 	margin-top: 0px;
 	text-align: center;
 }
 
+#linkedin{
+	margin-top: 0px;
+	text-align: center;
+}
 
 
 
