@@ -20,6 +20,7 @@ svg.absolute {
   right: 100px;
   width: 1000px;
   height: 1000px;
+	z-index: -1;
 }
 
 
@@ -34,6 +35,10 @@ svg.absolute {
 
 p{
 	margin-top: 150px;
+}
+
+img {
+z-index: -2;
 }
 
 #names{
