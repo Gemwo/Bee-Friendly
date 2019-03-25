@@ -14,6 +14,18 @@ body{
 }
 
 
+svg.absolute {
+  position: absolute;
+  top: -50px;
+  right: 100px;
+  width: 1000px;
+  height: 1000px;
+
+}
+
+p {
+	margin:100px 100px 100px 100px
+}
 .menuHolder {
   width: inherit;
   height: auto;
@@ -30,6 +42,7 @@ body{
   background-size: 50%;
   background-repeat: no-repeat;
 }
+
 
 
 @import url("https://fonts.googleapis.com/css?family=Unica+One");
