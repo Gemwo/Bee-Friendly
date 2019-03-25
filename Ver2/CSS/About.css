@@ -3,6 +3,16 @@ body{
 	font:300 18px/18px Roboto, sans-serif;
 }
 
+.header {
+  position: inherit;
+  width: inherit;
+  height: auto;
+  /* background-color: #ffc32f; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 svg.absolute {
   position: absolute;
@@ -15,6 +25,15 @@ svg.absolute {
 #names{
 	margin-top: 150px;
 	text-align: center;
+	font-weight: bold;
+}
+.menuHolder {
+  width: inherit;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #degree{
