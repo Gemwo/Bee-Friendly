@@ -36,7 +36,7 @@ header h3 {
 }
 
 header h3.quote {
-  background-color:#ffcc00;
+  background-color:#17a2b8;
   display:inline;
   line-height:56px;
 }
@@ -73,7 +73,7 @@ header h3.name {
 
 #legacy {
 
-  background-image:url(https://static.pexels.com/photos/2255/black-and-white-city-houses-skyline-large.jpg);
+  background-image:url('../images/winter2.jpg');
   background-attachment:fixed;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -95,16 +95,16 @@ footer {
 
 footer h1{
   font-size:0.9em;
-  color:#fff;
+  color:#000000;
   text-align:center;
 }
 
 footer a{
-  color:#fff;
+  color:#000000;
 }
 
 footer a:hover{
-  color:#fff;
+  color:#000000;
   background-color:rgba(81, 69, 107,0.9);
   text-decoration:none;
 }
