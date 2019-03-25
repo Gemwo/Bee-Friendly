@@ -32,8 +32,12 @@ svg.absolute {
   justify-content: space-between;
 }
 
-#names{
+p{
 	margin-top: 150px;
+}
+
+#names{
+	margin-top: 50px;
 	text-align: center;
 	font-weight: bold;
 }
