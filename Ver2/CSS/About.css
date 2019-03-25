@@ -8,7 +8,7 @@ body{
 
 @import url("https://fonts.googleapis.com/css?family=Unica+One");
 .peddle-center {
-  stop-color: #ffe6f7;
+  stop-color: #f3c444;
 }
 
 .peddle-outside {
@@ -357,7 +357,7 @@ svg {
 }
 
 body {
-  background: #143d52;
+  background: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
