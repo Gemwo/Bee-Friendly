@@ -37,9 +37,14 @@ p{
 	margin-top: 130px;
 }
 
+#form{
+	margin-top: 10px;
+}
+
 img {
 z-index: -2;
 }
+
 
 #names{
 	margin-top: 40px;
