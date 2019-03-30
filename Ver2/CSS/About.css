@@ -33,6 +33,14 @@ svg.absolute {
   justify-content: space-between;
 }
 
+.menuLogo {
+  width: 60px;
+  height: 30px;
+  background-image: url("https://cdn4.iconfinder.com/data/icons/environmental/80/Environment_ecology_eco-03-128.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
 p{
 	margin-top: 130px;
 }
