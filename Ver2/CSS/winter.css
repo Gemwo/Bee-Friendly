@@ -2,6 +2,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,300italic,700,700italic);
 
+
 html {
   height:100%;
 }
@@ -150,6 +151,14 @@ footer a:hover{
     font-size:2.5em;
     text-align:center;
     margin-top:20px;
+    color: rgb(20,20,20);
+  }
+
+  h2 {
+    font-size:1.0em;
+    text-align:left;
+    margin-top:25px;
+    color: rgb(50,50,50);
   }
 
   #intro .profile {
@@ -162,34 +171,3 @@ footer a:hover{
   }
 
 } /* max-width 600 px */
-
-
-
-div#Winter{
-  Width: 100%;
-  padding: 15px;
-  margin: 15px;
-}
-
-div#Spring{
-  Width: 100%
-  padding: 15px;
-  margin: 15px;
-}
-
-div#Summer{
-  Width: 100%
-  padding: 15px;
-  margin: 15px;
-}
-
-div#Autumn{
-  Width: 100%
-  padding: 15px;
-  margin: 15px;
-}
-
-button {
-  margin-top: -30%;
-  margin-left: 35%
-}
