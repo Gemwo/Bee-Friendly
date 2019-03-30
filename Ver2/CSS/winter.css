@@ -171,3 +171,62 @@ footer a:hover{
   }
 
 } /* max-width 600 px */
+
+
+
+div#Winter{
+  Width: 100%;
+  padding: 15px;
+  margin: 15px;
+}
+
+div#Spring{
+  Width: 100%
+  padding: 15px;
+  margin: 15px;
+}
+
+div#Summer{
+  Width: 100%
+  padding: 15px;
+  margin: 15px;
+}
+
+div#Autumn{
+  Width: 100%
+  padding: 15px;
+  margin: 15px;
+}
+
+button {
+  margin-top: -30%;
+  margin-left: 35%
+}
+
+.header {
+  position: inherit;
+  width: inherit;
+  height: auto;
+  /* background-color: #ffc32f; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.menuHolder {
+  width: inherit;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuLogo {
+  width: 60px;
+  height: 30px;
+  background-image: url("https://cdn4.iconfinder.com/data/icons/environmental/80/Environment_ecology_eco-03-128.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+}

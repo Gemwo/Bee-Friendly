@@ -1,4 +1,223 @@
-body{
-	margin:0;
-	font:300 18px/18px Roboto, sans-serif;
+/*Global CSS*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,300italic,700,700italic);
+
+html {
+  height:100%;
+}
+
+body {
+  font-family:'Roboto', serif;
+  font-size:16px;
+  height:100%;
+}
+
+h1 {
+  font-size:60px;
+  margin-bottom:30px;
+}
+
+/*Local CSS*/
+
+
+header {
+  background-image:url('../images/Summer.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: 50% 50%;
+  min-height:100%;
+  padding-top:100px;
+}
+
+header h3 {
+  font-size:2.5em;
+  color:#fff;
+  font-weight:300;
+}
+
+header h3.quote {
+  background-color:#B22222;
+  display:inline;
+  line-height:56px;
+}
+
+header h3.name {
+  font-style:italic;
+  color:#359675;
+}
+
+#intro {
+  padding:60px 0;
+  margin-bottom:80px;
+  min-height:100%;
+}
+
+#intro .profile {
+  border-radius:50%;
+  width:128px;
+  height:128px;
+  display:none;
+}
+
+
+#intro h1 {
+  color:#359675;
+}
+
+#intro h1 small {
+  font-size:0.4em;
+  color:#514568;
+  text-transform:uppercase;
+}
+
+
+#legacy {
+
+  background-image:url('../images/summer2.jpg');
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size:cover;
+  min-height:100%;
+  padding:80px 0;
+}
+
+#legacy h1 {
+  text-align:center;
+  color:#514568;
+  font-weight:300;
+}
+
+footer {
+  background-color:rgba(0,0,0,0.8);
+
+}
+
+footer h1{
+  font-size:0.9em;
+  color:#000000;
+  text-align:center;
+}
+
+footer a{
+  color:#000000;
+}
+
+footer a:hover{
+  color:#000000;
+  background-color:rgba(81, 69, 107,0.9);
+  text-decoration:none;
+}
+
+@media screen and (max-width:900px){
+
+  header{
+    height:450px;
+    padding-top:76px;
+  }
+
+  header h3 {
+  font-size:2em;
+}
+  header h3.quote {
+  line-height:45px;
+}
+
+  #intro {
+    padding:0 10px;
+    margin-bottom:30px;
+  }
+
+   #legacy {
+    padding-top:50px;
+  }
+
+} /* max-width 900 px */
+
+@media screen and (max-width:560px){
+
+  .mobile_hide {
+    display:none;
+  }
+
+  nav h4 {
+  font-weight:300;
+  font-size:16px;
+  margin: 16px 10px;
+}
+
+  h1 {
+    font-size:2.5em;
+    text-align:center;
+    margin-top:20px;
+  }
+
+  #intro .profile {
+    display:block;
+    margin:80px auto 0;
+  }
+
+  #legacy {
+    padding-top:30px;
+  }
+
+} /* max-width 600 px */
+
+
+
+div#Winter{
+  Width: 100%;
+  padding: 15px;
+  margin: 15px;
+}
+
+div#Spring{
+  Width: 100%
+  padding: 15px;
+  margin: 15px;
+}
+
+div#Summer{
+  Width: 100%
+  padding: 15px;
+  margin: 15px;
+}
+
+div#Autumn{
+  Width: 100%
+  padding: 15px;
+  margin: 15px;
+}
+
+button {
+  margin-top: -30%;
+  margin-left: 35%
+}
+
+.header {
+  position: inherit;
+  width: inherit;
+  height: auto;
+  /* background-color: #ffc32f; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.menuHolder {
+  width: inherit;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuLogo {
+  width: 60px;
+  height: 30px;
+  background-image: url("https://cdn4.iconfinder.com/data/icons/environmental/80/Environment_ecology_eco-03-128.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
 }
