@@ -33,10 +33,12 @@ header h3 {
   font-size:2.5em;
   color:#fff;
   font-weight:300;
+  text-align: center;
 }
 
 header h3.quote {
   background-color:#C71585;
+  opacity: 0.8;
   display:inline;
   line-height:56px;
 }
@@ -84,9 +86,15 @@ header h3.name {
 
 #legacy h1 {
   text-align:center;
-  color:#514568;
-  font-weight:300;
+  color: #fff;
+  font-weight:500;
 }
+
+  #legacy h2 {
+    font-size:2.0em;
+    text-align:left;
+    color: rgb(20,20,20);
+  }
 
 footer {
   background-color:rgba(0,0,0,0.8);
@@ -146,12 +154,6 @@ footer a:hover{
   margin: 16px 10px;
 }
 
-  h1 {
-    font-size:2.5em;
-    text-align:center;
-    margin-top:20px;
-  }
-
   #intro .profile {
     display:block;
     margin:80px auto 0;
@@ -164,34 +166,10 @@ footer a:hover{
 } /* max-width 600 px */
 
 
-
-div#Winter{
-  Width: 100%;
-  padding: 15px;
-  margin: 15px;
-}
-
-div#Spring{
-  Width: 100%
-  padding: 15px;
-  margin: 15px;
-}
-
-div#Summer{
-  Width: 100%
-  padding: 15px;
-  margin: 15px;
-}
-
-div#Autumn{
-  Width: 100%
-  padding: 15px;
-  margin: 15px;
-}
-
-button {
-  margin-top: -30%;
-  margin-left: 35%
+.container-fluid {
+  width: 50%;
+  margin-left: 300px;
+  margin-right: 300px
 }
 
 .header {

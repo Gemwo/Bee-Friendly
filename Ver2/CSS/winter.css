@@ -2,7 +2,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,300italic,700,700italic);
 
-
 html {
   height:100%;
 }
@@ -97,7 +96,6 @@ header h3.name {
     color: rgb(20,20,20);
   }
 
-
 footer {
   background-color:rgba(0,0,0,0.8);
 
@@ -166,7 +164,6 @@ footer a:hover{
   }
 
 } /* max-width 600 px */
-
 
 
 .container-fluid {
