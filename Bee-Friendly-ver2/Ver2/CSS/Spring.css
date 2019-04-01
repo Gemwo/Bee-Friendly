@@ -1,0 +1,11 @@
+header {
+  background-image:url('../images/Spring.jpg');
+}
+
+#legacy {
+  background-image:url('../images/Spring2.jpg');
+}
+
+header h3.quote {
+  background-color: rgba(20, 180, 20, 0.8);
+}

@@ -1,0 +1,10 @@
+header {
+  background-image:url('../images/Autumn.jpg');
+}
+
+#legacy {
+  background-image:url('../images/Autumn2.jpg');
+}
+header h3.quote {
+  background-color: rgba(200, 0, 0, 0.8);
+}

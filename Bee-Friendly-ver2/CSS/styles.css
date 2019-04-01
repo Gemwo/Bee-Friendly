@@ -1,0 +1,47 @@
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+div#Winter{
+  Position: relative;
+  text-align: center;
+  Width: 92%;
+  padding: 30px;
+  margin: 30px;
+}
+
+div#Spring{
+  Position: relative;
+  Width: 92%
+  padding: 15px;
+  margin: 15px;
+}
+
+div#Summer{
+  Position: relative;
+  Width: 92%
+  padding: 15px;
+  margin: 15px;
+}
+
+div#Autumn{
+  Position: relative;
+  Width: 92%
+  padding: 15px;
+  margin: 15px;
+}
+
+button {
+  margin-top: -30%;
+  margin-left: 35%
+}
+
+.top-left{
+  position: absolute;
+  display: block;
+  top: 100px;
+  left:100px;
+  background-color: rgba(255,255,255,0.5);
+}
