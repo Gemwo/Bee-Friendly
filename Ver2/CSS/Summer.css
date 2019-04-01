@@ -1,6 +1,11 @@
 header {
   background-image:url('../images/Summer.jpg');
 }
+
 #legacy {
   background-image:url('../images/summer2.jpg');
+}
+
+header h3.quote {
+  background-color: rgba(210, 210, 0, 0.8);
 }
