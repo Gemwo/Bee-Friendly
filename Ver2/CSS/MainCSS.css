@@ -174,9 +174,9 @@ footer a:hover{
 } /* max-width 600 px */
 
 .container-fluid {
-  width: 65%;
-  margin-left: 300px;
-  margin-right: 300px;
+  width: 75%;
+  margin-left: 150px;
+  margin-right: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -223,8 +223,8 @@ figure.snip1206 {
   margin: 15px;
   min-width: 250px;
   min-height:200px;
-  max-width: 370px;
-  max-height: 350px;
+  max-width: 420px;
+  max-height: 390px;
   width: 80%;
   color: #000000;
   text-align: center;
