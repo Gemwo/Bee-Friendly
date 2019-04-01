@@ -13,6 +13,12 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="CSS/Autumn.css">
+  <link rel="stylesheet" type="text/css" href="CSS/MainCSS.css">
+
+  <!-- Base bits for Jquery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   <title>Bee Friendly</title>
 </head>
@@ -26,9 +32,6 @@
     <div class="row">
       <div class="col-xs-8 col-xs-offset-1">
         <div class="mobile_hide">
-          <h3 class="quote"><span>“</span> A colony of bees consists of 20,000-60,000 honey bees and one queen. Worker honey bees are female, live for about 6 weeks and do all the work.”</h3>
-
-          <h3 class="name"> </h3>
         </div>
       </div>
       <!-- col-7 -->
@@ -44,13 +47,9 @@
     <h1><small>Gardens in</small><br> <strong>Autumn</strong></h1>
     <div class="row">
       <div class="col-sm-6">
+        <p> Bee fact: <br /> "A colony of bees consists of 20,000-60,000 honey bees and one queen. Worker honey bees are female, live for about 6 weeks and do all the work.”</p>
         <p>Jane Jacobs (1916-2006) was an urbanist and activist whose writings championed a fresh, community-based approach to city building. She had no formal training as a planner, and yet her 1961 treatise, The Death and Life of Great American Cities,
           introduced ground-breaking ideas about how cities function, evolve and fail that now seem like common sense to generations of architects, planners, politicians and activists.</p>
-        <p>Jacobs saw cities as ecosystems that had their own logic and dynamism which would change over time according to how they were used. With a keen eye for detail, she wrote eloquently about sidewalks, parks, retail design and self-organization. She
-          promoted higher density in cities, short blocks, local economies and mixed uses. Jacobs helped derail the car-centred approach to urban planning in both New York and Toronto, invigorating neighbourhood activism by helping stop the expansion
-          of expressways and roads. She lived in Greenwich Village for decades, then moved to Toronto in 1968 where she continued her work and writing on urbanism, economies and social issues until her death in April 2006.</p>
-
-        <p>A firm believer in the importance of local residents having input on how their neighbourhoods develop, Jacobs encouraged people to familiarize themselves with the places where they live, work and play with words like these.</p>
 
       </div>
       <!-- .col-6 -->
@@ -70,24 +69,53 @@
   </div>
   <!-- .container -->
 </section>
-<!-- #intro -->
 
+<!-- Gallery-->
 
 <section id="legacy" class="clearfix">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <h1>The Legacy</h1>
+  <div class="container-fluid">
 
-      </div>
-    </div>
+            <h1>The Plants
+              <h2>
+                A selection of plants which you can put in your garden to help the bees through winter!
+              </h2>
+            </h1>
+
+              <div id="imageconts" class="row">
+                <figure class="snip1206">
+                  <img src="Images/SummerSpecies/Apple.jpg" alt="Apple" />
+                  <figcaption>
+                    <h4>Apple Blossom</h4>
+                  </figcaption>
+                  <a href="#"></a>
+                </figure>
+                <figure class="snip1206">
+                  <img src="Images/SummerSpecies/Crocus.jpg" alt="Crocus" />
+                  <figcaption>
+                    <h4>Crocus</h4>
+                  </figcaption>
+                  <a href="#"></a>
+                </figure>
+              </div>
+              <div id="imageconts" class="row">
+                <figure class="snip1206">
+                  <img src="Images/SummerSpecies/Willow.jpg" alt="Willow" />
+                  <figcaption>
+                    <h4>Pussy Willow</h4>
+                  </figcaption>
+                  <a href="#"></a>
+                </figure>
+                <figure class="snip1206">
+                  <img src="Images/SummerSpecies/Hyacinth.jpg" alt="Hyacinth" />
+                  <figcaption>
+                    <h4>Hyacinth</h4>
+                  </figcaption>
+                  <a href="#"></a>
+                </figure>
+              </div>
+
   </div>
 </section>
-<!-- #legacy -->
-<footer class="clearfix">
-  <h1>2016 &#169; <a href="https://www.linkedin.com/in/stephaniezeng" target="_blank">Stephanie Zeng</a> / A Free Code Camp Project </h1></footer>
-
-
 
 <!-- Navigation bar at the top-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -126,6 +154,10 @@
 </nav>
 
 
+<script src="JS/FigureGallery.js"></script>
 
 
 </body>
+<!-- #Footer-->
+<footer class="clearfix">
+  <h1>2016 &#169; <a href="https://www.linkedin.com/in/stephaniezeng" target="_blank">Stephanie Zeng</a> / A Free Code Camp Project </h1></footer>
